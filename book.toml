@@ -3,3 +3,11 @@ authors = ["volatile rye"]
 language = "en"
 src = "src"
 title = "y"
+
+[output.html]
+theme = "src/theme"
+
+[build]
+
+[output.test]
+command = "sh ../../scripts/test.sh"
