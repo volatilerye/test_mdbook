@@ -5,7 +5,7 @@ src = "src"
 title = "test"
 
 [output.html]
-theme = "src/theme"
+# theme = "src/theme"
 
 [build]
 
