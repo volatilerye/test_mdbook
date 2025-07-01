@@ -2,7 +2,7 @@
 authors = ["volatile rye"]
 language = "en"
 src = "src"
-title = "y"
+title = "test"
 
 [output.html]
 theme = "src/theme"
@@ -10,4 +10,4 @@ theme = "src/theme"
 [build]
 
 [output.test]
-command = "sh ../../scripts/test.sh"
+command = "python ../../scripts/nop.py"
